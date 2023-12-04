@@ -3,6 +3,14 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Ingredient",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe",
+      "isDefault": false
     }
   ],
   "viewMode": false,
