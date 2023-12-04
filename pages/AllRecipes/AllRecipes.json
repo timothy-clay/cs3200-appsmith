@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "AllRecipes",
+    "slug": "allrecipes",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1150,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_AllRecipes",
+              "id": "AllRecipes_AllRecipes",
               "name": "AllRecipes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
           ],
           [
             {
-              "id": "Page1_OneRecipe",
+              "id": "AllRecipes_OneRecipe",
               "name": "OneRecipe",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -52,14 +52,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "AllRecipes",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "656ccdadada9ed2b87720a50_656ccdadada9ed2b87720a52"
