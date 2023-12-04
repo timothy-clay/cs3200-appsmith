@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 6,
+    "topRow": 54,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -18,7 +18,8 @@
         {"key": "primaryColumns.PostDate.computedValue"},
         {"key": "primaryColumns.Price.computedValue"},
         {"key": "primaryColumns.Servings.computedValue"},
-        {"key": "primaryColumns.Title.computedValue"}
+        {"key": "primaryColumns.Title.computedValue"},
+        {"key": "primaryColumns.RecipeID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 3,
@@ -60,10 +61,10 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701667426359,
+    "columnUpdatedAt": 1701727769121,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 34,
-    "widgetName": "Table1",
+    "widgetName": "Recipes",
     "defaultPageSize": 0,
     "columnOrder": [
         "Title",
@@ -71,11 +72,12 @@
         "Category",
         "PostDate",
         "Price",
-        "Servings"
+        "Servings",
+        "RecipeID"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 38,
+    "bottomRow": 86,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -85,7 +87,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Category": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Category\"]))}}",
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Category\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Category",
@@ -119,7 +121,7 @@
             "verticalAlignment": "CENTER"
         },
         "Price": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Price\"]))}}",
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Price\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Price",
@@ -153,7 +155,7 @@
             "verticalAlignment": "CENTER"
         },
         "Calories_per_Serving": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Calories per Serving\"]))}}",
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Calories per Serving\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Calories per Serving",
@@ -187,7 +189,7 @@
             "verticalAlignment": "CENTER"
         },
         "Servings": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Servings\"]))}}",
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Servings\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Servings",
@@ -220,8 +222,42 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
+        "RecipeID": {
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RecipeID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "RecipeID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "RecipeID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 4,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "RecipeID",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "RecipeID",
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
         "Title": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Title",
@@ -255,7 +291,7 @@
             "verticalAlignment": "CENTER"
         },
         "PostDate": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PostDate\"]))}}",
+            "computedValue": "{{Recipes.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PostDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "PostDate",
@@ -292,7 +328,7 @@
     "key": "i3q3o9rwey",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 40,
+    "rightColumn": 56,
     "textSize": "0.875rem",
     "widgetId": "997c7g0z7c",
     "minWidth": 450,
