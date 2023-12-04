@@ -7,6 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "web:4000/r/recipes"
       },
       "invalids": [],
@@ -46,8 +47,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T05:21:52Z"
+    "userPermissions": []
   },
   "id": "Page1_AllRecipes",
   "deleted": false,
