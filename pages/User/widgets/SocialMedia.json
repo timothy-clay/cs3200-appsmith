@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.265625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 45,
+    "leftColumn": 44,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Social Media",
     "key": "cidkw9xymm",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 60,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "fb090eik23",
