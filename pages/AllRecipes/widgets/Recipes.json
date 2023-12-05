@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "isVisibleDownload": true,
+    "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 0,
     "isSortable": true,
@@ -89,7 +89,9 @@
     "displayName": "Table",
     "bottomRow": 53,
     "columnWidthMap": {
-        "Title": 197,
+        "Category": 152,
+        "Price": 141,
+        "Title": 293,
         "PostDate": 114.99999999999997
     },
     "parentRowSpace": 10,
@@ -511,7 +513,7 @@
     "key": "i3q3o9rwey",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 40,
+    "rightColumn": 43,
     "textSize": "0.875rem",
     "widgetId": "997c7g0z7c",
     "minWidth": 450,
