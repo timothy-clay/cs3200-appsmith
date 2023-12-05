@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,8 +30,8 @@
     "text": "Nutrition",
     "key": "ocoe96sxkz",
     "isDeprecated": false,
-    "rightColumn": 26,
-    "textAlign": "LEFT",
+    "rightColumn": 44,
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "9oettttf8u",
     "minWidth": 450,
@@ -53,6 +53,6 @@
     "mobileLeftColumn": 46,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 29,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
