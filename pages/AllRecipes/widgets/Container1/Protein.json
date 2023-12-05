@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 21,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,8 +32,8 @@
     "text": "{{Recipes.selectedRow[\"Protein\"]}}g Protein\n",
     "key": "ocoe96sxkz",
     "isDeprecated": false,
-    "rightColumn": 21,
-    "textAlign": "LEFT",
+    "rightColumn": 42,
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "rccy8dwnfl",
     "minWidth": 450,
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 8,
     "responsiveBehavior": "fill",
-    "originalTopRow": 37,
+    "originalTopRow": 29,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 41,
+    "originalBottomRow": 33,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
