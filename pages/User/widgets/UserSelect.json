@@ -34,7 +34,7 @@
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 7,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 28,
@@ -57,6 +57,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 8,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{UserRecipes.run();\nUserSocials.run()}}",
+    "onOptionChange": "{{UserRecipes.run();\nUserSocials.run();\nUserPlans.run()}}",
     "minDynamicHeight": 4
 }

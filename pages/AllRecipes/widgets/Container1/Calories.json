@@ -19,7 +19,7 @@
     "fontFamily": "System Default",
     "parentColumnSpace": 12.859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 17,
+    "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "text": "{{Recipes.selectedRow[\"Calories\"]}} Calories\n",
     "key": "ocoe96sxkz",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 47,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0c94u5gw3j",

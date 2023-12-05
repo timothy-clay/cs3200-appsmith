@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 440,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -37,6 +37,16 @@
             }
           ],
           [
+            {
+              "id": "User_UserPlans",
+              "name": "UserPlans",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "UserSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "User_UserRecipes",
               "name": "UserRecipes",

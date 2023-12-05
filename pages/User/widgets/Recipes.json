@@ -67,7 +67,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701812648966,
-    "originalBottomRow": 66,
+    "originalBottomRow": 36,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 39,
     "widgetName": "Recipes",
@@ -88,7 +88,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 44,
+    "bottomRow": 36,
     "columnWidthMap": {
         "Category": 103,
         "Title": 180
@@ -514,7 +514,7 @@
     "key": "rfnn96gtme",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 42,
     "textSize": "0.875rem",
     "widgetId": "xebyir1xqx",
     "minWidth": 450,
