@@ -36,16 +36,17 @@
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "top",
-      "navStyle": "stacked",
+      "navStyle": "inline",
       "position": "static",
       "itemStyle": "text",
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
+      "showSignIn": false
     }
   },
   "color": "#FFEBFB",
+  "icon": "product",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
