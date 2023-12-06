@@ -39,7 +39,7 @@
     "hideCard": false,
     "mobileRightColumn": 40,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "sourceData": "{{MealPlansList.data}}",
     "key": "ff3nprxmde",
@@ -57,5 +57,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 20,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{PlanRecipes.run()}}",
     "minDynamicHeight": 4
 }

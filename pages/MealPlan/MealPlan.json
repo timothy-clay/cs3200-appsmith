@@ -29,14 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "MealPlan_AllRecipes",
-              "name": "AllRecipes",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "MealPlan_UsersList",
               "name": "UsersList",
               "confirmBeforeExecute": false,
@@ -52,6 +44,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "UserSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "MealPlan_PlanRecipes",
+              "name": "PlanRecipes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "PlanNameSelect.selectedOptionValue",
                 "UserSelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
