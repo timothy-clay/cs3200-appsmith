@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 530,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -34,18 +34,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "AllRecipes_OneRecipe",
-              "name": "OneRecipe",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Recipes.selectedRow.RecipeID"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
