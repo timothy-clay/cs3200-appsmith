@@ -28,14 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Ingredient_GetIngredientAllergens",
-              "name": "GetIngredientAllergens",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Ingredient_GetIngredients",
               "name": "GetIngredients",
               "confirmBeforeExecute": false,
@@ -45,6 +37,16 @@
             }
           ],
           [
+            {
+              "id": "Ingredient_GetIngredientAllergens",
+              "name": "GetIngredientAllergens",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "IngredientSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Ingredient_GetIngredientAttributes",
               "name": "GetIngredientAttributes",

@@ -21,11 +21,11 @@
       "isDefault": false
     },
     {
-      "id": "MealPlan",
+      "id": "AddRecipe",
       "isDefault": false
     },
     {
-      "id": "AddRecipe",
+      "id": "MealPlan",
       "isDefault": false
     }
   ],
