@@ -19,7 +19,7 @@
     "fontFamily": "System Default",
     "parentColumnSpace": 12.859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 18,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "text": "{{Recipes.selectedRow[\"Calories\"]}} Calories\n",
     "key": "ocoe96sxkz",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 46,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0c94u5gw3j",
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 8,
     "responsiveBehavior": "fill",
-    "originalTopRow": 28,
+    "originalTopRow": 26,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 32,
+    "originalBottomRow": 30,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
