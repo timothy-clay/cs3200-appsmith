@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User",
-    "slug": "user",
+    "name": "User Info",
+    "slug": "user-info",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "User_UsersList",
+              "id": "User Info_UsersList",
               "name": "UsersList",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,7 +38,7 @@
           ],
           [
             {
-              "id": "User_UserPlans",
+              "id": "User Info_UserPlans",
               "name": "UserPlans",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -48,7 +48,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "User_UserRecipes",
+              "id": "User Info_UserRecipes",
               "name": "UserRecipes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -58,7 +58,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "User_UserSocials",
+              "id": "User Info_UserSocials",
               "name": "UserSocials",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -71,7 +71,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User",
+        "id": "User Info",
         "deleted": false,
         "policies": [],
         "userPermissions": []

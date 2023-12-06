@@ -122,7 +122,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 44,
+    "originalBottomRow": 41,
     "useSourceData": true,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -204,7 +204,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 41,
+    "bottomRow": 44,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add a review for {{RecipeSelect.selectedOptionLabel}}",

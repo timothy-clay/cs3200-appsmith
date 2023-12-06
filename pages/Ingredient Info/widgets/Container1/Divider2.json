@@ -14,7 +14,7 @@
     "mobileRightColumn": 17,
     "animateLoading": true,
     "parentColumnSpace": 4.732421875,
-    "leftColumn": 0,
+    "leftColumn": 3,
     "dynamicBindingPathList": [],
     "key": "ld9dfwh39q",
     "dividerColor": "#858282",
@@ -33,5 +33,7 @@
     "isLoading": false,
     "mobileTopRow": 26,
     "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0
+    "originalTopRow": 26,
+    "mobileLeftColumn": 0,
+    "originalBottomRow": 30
 }
