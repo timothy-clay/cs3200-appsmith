@@ -1,31 +1,31 @@
 {
   "pages": [
     {
-      "id": "AllRecipes",
+      "id": "Browse Recipes",
       "isDefault": true
     },
     {
-      "id": "Ingredient",
+      "id": "Ingredient Info",
       "isDefault": false
     },
     {
-      "id": "Recipe",
+      "id": "Recipe Info",
       "isDefault": false
     },
     {
-      "id": "User",
+      "id": "User Info",
       "isDefault": false
     },
     {
-      "id": "Reviews",
+      "id": "Recipe Reviews",
       "isDefault": false
     },
     {
-      "id": "AddRecipe",
+      "id": "Add a Recipe",
       "isDefault": false
     },
     {
-      "id": "MealPlan",
+      "id": "Meal Plans",
       "isDefault": false
     }
   ],
@@ -36,7 +36,7 @@
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "top",
-      "navStyle": "inline",
+      "navStyle": "stacked",
       "position": "static",
       "itemStyle": "text",
       "colorStyle": "theme",
