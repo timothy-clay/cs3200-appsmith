@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 560,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -30,6 +30,14 @@
             {
               "id": "Reviews_RecipesList",
               "name": "RecipesList",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Reviews_UsersList",
+              "name": "UsersList",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
