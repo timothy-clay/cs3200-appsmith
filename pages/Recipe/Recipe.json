@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 440,
+          "bottomRow": 430,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -60,6 +60,18 @@
             {
               "id": "Recipe_GetIngredients",
               "name": "GetIngredients",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "RecipeSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Recipe_GetRecipe",
+              "name": "GetRecipe",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
