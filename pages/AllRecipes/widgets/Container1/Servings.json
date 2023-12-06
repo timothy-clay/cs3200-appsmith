@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 39,
+    "leftColumn": 35,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "{{Recipes.selectedRow[\"Servings\"]}} Servings",
     "key": "ocoe96sxkz",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 55,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "vu6xf5i8ck",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 21,
     "responsiveBehavior": "fill",
-    "originalTopRow": 13,
+    "originalTopRow": 15,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 48,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 17,
+    "originalBottomRow": 19,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
