@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 49,
-    "bottomRow": 54,
+    "topRow": 50,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -21,17 +21,15 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "fontFamily"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{UserSelect.selectedOptionLabel}}'s Meal Plans",
     "key": "cidkw9xymm",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 25,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "3ofrlcs7ae",
@@ -49,11 +47,11 @@
     "isLoading": false,
     "mobileTopRow": 11,
     "responsiveBehavior": "fill",
-    "originalTopRow": 49,
+    "originalTopRow": 50,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 54,
+    "originalBottomRow": 55,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

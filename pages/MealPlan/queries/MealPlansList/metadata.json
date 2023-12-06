@@ -53,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T01:24:24Z"
+    "createdAt": "2023-12-06T22:21:56Z"
   },
   "id": "MealPlan_MealPlansList",
   "deleted": false,
-  "gitSyncId": "656e4e1705ac74122730f8a6_656fcd48f14d1a7cfaa3c4cb"
+  "gitSyncId": "656e4e1705ac74122730f8a6_6570f4045ccbe543cee7fb42"
 }

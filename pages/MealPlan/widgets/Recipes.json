@@ -81,7 +81,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 67,
     "columnWidthMap": {
         "Category": 152,
         "Price": 141,

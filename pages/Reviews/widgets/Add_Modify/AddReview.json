@@ -202,9 +202,9 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 44,
+    "bottomRow": 41,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add a review for {{RecipeSelect.selectedOptionLabel}}",

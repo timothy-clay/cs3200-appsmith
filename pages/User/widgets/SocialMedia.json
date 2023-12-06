@@ -20,11 +20,7 @@
     "parentColumnSpace": 12.265625,
     "dynamicTriggerPathList": [],
     "leftColumn": 44,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Social Media",
