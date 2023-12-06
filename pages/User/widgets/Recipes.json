@@ -67,7 +67,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701812648966,
-    "originalBottomRow": 28,
+    "originalBottomRow": 40,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 39,
     "widgetName": "Recipes",
@@ -88,9 +88,9 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 28,
+    "bottomRow": 40,
     "columnWidthMap": {
-        "Category": 103,
+        "Category": 151,
         "Title": 180
     },
     "parentRowSpace": 10,
