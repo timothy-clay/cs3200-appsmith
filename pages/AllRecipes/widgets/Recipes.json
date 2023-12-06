@@ -65,7 +65,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701878094768,
+    "columnUpdatedAt": 1701846606475,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 34,
     "widgetName": "Recipes",
@@ -88,7 +88,7 @@
     "bottomRow": 53,
     "columnWidthMap": {
         "Category": 152,
-        "Price": 141,
+        "Price": 246,
         "Title": 293,
         "PostDate": 114.99999999999997
     },

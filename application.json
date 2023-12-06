@@ -33,28 +33,24 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
-    "appPositioning": {
-      "type": "FIXED"
-    },
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "top",
-      "navStyle": "inline",
+      "navStyle": "stacked",
       "position": "static",
       "itemStyle": "text",
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": false
+      "showSignIn": true
     }
   },
   "color": "#FFEBFB",
-  "icon": "product",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],

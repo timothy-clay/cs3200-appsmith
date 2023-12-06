@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 26,
-    "bottomRow": 30,
+    "topRow": 28,
+    "bottomRow": 32,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "System Default",
     "parentColumnSpace": 12.859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 18,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "text": "{{Recipes.selectedRow[\"Calories\"]}} Calories\n",
     "key": "ocoe96sxkz",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 46,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0c94u5gw3j",

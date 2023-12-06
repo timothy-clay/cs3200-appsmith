@@ -40,7 +40,7 @@
     "mobileTopRow": 40,
     "responsiveBehavior": "hug",
     "originalTopRow": 37,
-    "disabledWhenInvalid": false,
+    "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "originalBottomRow": 43,
