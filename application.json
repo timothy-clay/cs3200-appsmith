@@ -33,9 +33,6 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
-    "appPositioning": {
-      "type": "FIXED"
-    },
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "top",
@@ -50,10 +47,10 @@
   },
   "color": "#FFEBFB",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
