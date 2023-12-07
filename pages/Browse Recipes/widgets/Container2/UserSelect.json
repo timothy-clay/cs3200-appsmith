@@ -38,7 +38,7 @@
     "hideCard": false,
     "mobileRightColumn": 60,
     "parentColumnSpace": 11.7392578125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
     "sourceData": "{{UsersList.data}}",
     "key": "6qr80cpyve",
@@ -56,5 +56,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 40,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{UsersList.run()}}",
     "minDynamicHeight": 4
 }
