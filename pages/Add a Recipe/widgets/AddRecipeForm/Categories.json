@@ -8,7 +8,7 @@
     "mode": "SHOW_CHILD",
     "defaultOptionValue": "",
     "animateLoading": true,
-    "leftColumn": 43,
+    "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -44,7 +44,7 @@
     "key": "i3nrtn0bdv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 47,
     "widgetId": "lkhi3cdszs",
     "minWidth": 450,
     "parentId": "3c7kf7hapq",

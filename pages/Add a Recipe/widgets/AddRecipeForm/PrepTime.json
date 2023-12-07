@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 22,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -46,7 +46,7 @@
     "key": "982q0nz8po",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 31,
     "widgetId": "8p1yjxi0qv",
     "minWidth": 450,
     "label": "Prep Time",
