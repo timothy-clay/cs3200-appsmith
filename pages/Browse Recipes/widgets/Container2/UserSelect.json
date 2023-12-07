@@ -56,6 +56,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 40,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{UsersList.run()}}",
+    "onOptionChange": "{{MealPlansList.run()}}",
     "minDynamicHeight": 4
 }
